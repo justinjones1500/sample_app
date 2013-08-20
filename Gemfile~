@@ -19,11 +19,12 @@ group :assets do
   gem 'coffee-rails', '3.2.2'
   gem 'uglifier', '1.2.3'
 end
-
+gem 'strong_parameters'
 gem 'jquery-rails', '2.0.2'
 
 group :test do
-  gem 'capybara', '1.1.2'
+  #gem 'capybara', '1.1.2'
+  gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.1'
 end
 
