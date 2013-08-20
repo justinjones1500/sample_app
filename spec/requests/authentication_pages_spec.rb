@@ -62,7 +62,8 @@ describe "Authentication" do
         end
 
         describe "submitting to the update action" do
-          before { patch user_path(user) }
+          #before { patch user_path(user) }
+          before { put user_path(user) }
           specify { expect(response).to redirect_to(signin_path) }
         end
       end
